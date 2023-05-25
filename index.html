@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>PH Scale</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+  <section>
+    <h1>PH Scale</h1>
+  </section>
+  <section id="scale">
+    <p id="s14">14.0 VERY ALKALINE</p>
+    <p id="s13">13.0</p>
+    <p id="s12">12.0</p>
+    <p id="s11">11.0</p>
+    <p id="s10">10.0</p>
+    <p id="s9">9.0</p>
+    <p id="s8">8.0</p>
+    <p id="s7">7.0 NEUTRAL</p>
+    <p id="s6">6.0</p>
+    <p id="s5">5.0</p>
+    <p id="s4">4.0</p>
+    <p id="s3">3.0</p>
+    <p id="s2">2.0</p>
+    <p id="s1">1.0</p>
+    <p id="s0">0 VERY ACID</p>
+  </section>
+  <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyA5Ilb_hjtNW8ma80fZldKRnc20OPTxb2Y",
+    authDomain: "ph-level-4f916.firebaseapp.com",
+    projectId: "ph-level-4f916",
+    storageBucket: "ph-level-4f916.appspot.com",
+    messagingSenderId: "956381004200",
+    appId: "1:956381004200:web:774e525acb612a28d81d9d",
+    measurementId: "G-643624R942"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+</body>
+
+</html>
